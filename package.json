@@ -1,0 +1,21 @@
+{
+  "name": "blog-app-mongoose",
+  "version": "1.0.0",
+  "description": "Blog-API Mongoose challenge adding users",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Charles Villa",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.15",
+    "morgan": "^1.9.1",
+    "uuid": "^3.3.2"
+  }
+}
