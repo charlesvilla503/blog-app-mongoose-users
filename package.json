@@ -4,7 +4,8 @@
   "description": "Blog-API Mongoose challenge adding users",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "mocha --exit"
   },
   "keywords": [
     "node",
@@ -16,6 +17,10 @@
     "express": "^4.16.3",
     "mongoose": "^5.2.15",
     "morgan": "^1.9.1",
-    "uuid": "^3.3.2"
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "faker": "^4.1.0",
+    "uuid": "^3.3.2",
+    "mocha": "^5.0.5"
   }
 }
